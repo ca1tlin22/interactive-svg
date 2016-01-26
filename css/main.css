@@ -42,7 +42,7 @@ html {
 
 #eyes {
   transform: translateX(0);
-  animation: dart-eyes 3s ease 2;
+  animation: dart-eyes 3s ease infinite;
 }
 
 @keyframes dart-eyes {
@@ -70,16 +70,16 @@ html {
 }
 
 .st1 {
-  fill: #FFAACA;
+  fill: #ffaaca;
 }
 
 .st2 {
-  fill: #C65B00;
+  fill: #c65b00;
 }
 
 .st3 {
   fill: none;
-  stroke: #000000;
+  stroke: #000;
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
