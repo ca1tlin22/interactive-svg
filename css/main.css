@@ -15,3 +15,28 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+#bear {
+  width: 300px;
+}
+
+#left-ear {
+  transform: rotate(0deg);
+  transform-origin: right;
+  transition: all 200ms linear;
+}
+
+#bear:hover #left-ear {
+  transform: rotate(-15deg);
+}
+
+#right-ear {
+  transform: rotate(0deg);
+  transform-origin: left;
+  transition: all 200ms linear;
+}
+
+#bear:hover #right-ear {
+  transform: rotate(15deg);
+}
+
