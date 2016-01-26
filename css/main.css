@@ -40,3 +40,27 @@ html {
   transform: rotate(15deg);
 }
 
+#eyes {
+  transform: translateX(0);
+  animation: dart-eyes 3s ease 2;
+}
+
+@keyframes dart-eyes {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    transform: translateX(-10px);
+  }
+
+  66% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
